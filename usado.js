@@ -8,15 +8,6 @@ function myFunction(){
         }
     }
 
-function genfav(resultado){
-	if(resultado=="terror"){
-		window.location.href = "terror.html";
-	}
-	else if(resultado=="comedia"){
-		window.location.href="comwdia.html";
-	}
-}
-
 var audio=document.getElementById("miAudio");
 var vol=document.getElementById("miVol");
 
