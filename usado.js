@@ -13,6 +13,8 @@ function myFunction(){
   var subirBoton = document.getElementById("subirVol");
   var bajarBoton = document.getElementById("bajarVol");
 
+audio.volume = 1;
+
   vol.addEventListener("input", function() {
     audio.volume = vol.value;
   });
